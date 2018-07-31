@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+body {
+    width: 100%;    
+    font-family: Arial, sans-serif;    
+}
+
+header div#header {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0; 
+    background-color: #242536;  
+}
+
+header div#header h1 {    
+    width: 19%;
+    height: 80px;
+    margin: 0;
+    padding: 0;            
+    background-image: url('../imagens/logo.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-color: #141524;          
+}
+
+header div#header h1 span {
+    visibility: hidden;   
+}
+
+header div#header div#img {    
+    position: relative;
+    float: right;
+    margin-top: -55px;
+    padding-right: 30px;
+}
+
+section div#section { 
+    position: absolute;
+    left: 256px;
+    width: 95%;
+    height: 1000px;
+    background-color: #f5f5f5;  
+}
+
+section div#section header {
+    height: 55px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+section div#section header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section div#section header nav ul li {    
+    display: inline-block;    
+    padding-top: 20px;
+    padding-left: 41px;    
+}
+
+section div#section header nav ul li a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+section div#section header nav ul li a:hover {
+    padding-bottom: 26px;
+    color: #ffb946;
+    border-bottom: 2px solid #ffb946;
+}
+
+div#form {
+    margin: 20px;
+    padding: 15px 30px 30px 30px;    
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+div#form form img {
+    padding-left: 12px;
+}
+
+div#form form h2 {      
+    font-size: 20px;
+    font-weight: 700;
+    color: #161616;
+}
+
+div#form form input {
+    height: 40px;
+    margin-bottom: 10px;  
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+div#form form select {
+    padding-left: 15px; 
+    height: 40px;
+    margin-bottom: 10px;  
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+div#form form p {    
+    margin: 0;
+    padding: 0;
+    margin-bottom: 26px;
+    font-size: 12px;
+    font-weight: 400;    
+}
+
+div#form h2#pass {
+    margin-top: 50px; 
+    margin-bottom: 10px;   
+}
+
+div#form h2#any {
+    margin-top: 50px; 
+    margin-bottom: 15px;      
+}
+
+div#form form input[type=checkbox] {
+    width: 16px;
+    height: 16px;    
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+
+div#form form span { 
+    padding-left: 6px;   
+    font-size: 14px;
+    font-weight: 400;    
+}
+
+::-webkit-input-placeholder {
+    padding-left: 12px;
+}
+
+div#form form button {
+    margin-top: 30px;
+    border: none;
+    padding: 10px 200px;
+    background-color: #3aca60;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+aside div#menu nav  {                
+    width: 19%;
+    height: 990px;  
+    background-color: #242536; 
+}
+
+aside div#menu nav ul {
+    list-style: none;    
+    margin: 0;
+    padding: 0;      
+}
+
+aside div#menu nav ul li {                  
+    padding: 20px 70px;          
+    background-position: 40px;
+    border-left: 4px solid rgba(255,255,255,0);  
+}
+
+aside div#menu nav ul li#balance {
+    background-image: url('../imagens/cifrao.png');
+    background-repeat: no-repeat;
+}
+
+aside div#menu nav ul li#dash {
+    background-image: url('../imagens/dash.png');
+    background-repeat: no-repeat; 
+}
+
+aside div#menu nav ul li#base {
+    background-image: url('../imagens/base.png');
+    background-repeat: no-repeat;
+}
+
+aside div#menu nav ul li#projects {
+    background-image: url('../imagens/cubos.png');
+    background-repeat: no-repeat;
+}
+
+aside div#menu nav ul li#settings {
+    background-image: url('../imagens/settings.png');
+    background-repeat: no-repeat;
+}
+
+aside div#menu nav ul li a {                     
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+aside div#menu nav ul li:hover {      
+    cursor: pointer;
+    background-color: #151524; 
+    border-left: 4px solid #ffb946;   
+}
