@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projeto 009</title>
+</head>
+<body>
+
+    <div class="checkout">
+        <header>
+            <h2>Checkout</h2>
+            <ul>
+                <li><a href="#">Shipping ></a></li>
+                <li id="payment"><a href="#">Payment Method ></a></li>
+                <li><a href="#">Confirmation</a></li>
+            </ul>
+        </header> 
+        <section class="card">
+            <h3>Wallet</h3>
+            <div class="cardflag">
+                <img src="imagens/cardvisa.png" alt="Visa Card" width="73px" height="48px">
+                <span>Ending in 1234</span>
+            </div>
+            <div class="cardflag">
+                <img src="imagens/cardmaster.png" alt="Master Card" width="73px" height="48px">
+                <span>Ending in 2222</span>
+            </div>
+            <div class="cardflag">
+                <img src="imagens/carddisc.png" alt="Discover Card" width="73px" height="48px">
+                <span>Ending in 1111</span>
+            </div>
+            <form action="#" method="post">
+                <h3>New Card</h3>
+                <input type="text" name="namecard" required placeholder="Name on card"> 
+                <input type="text" name="numbercard" required maxlength="16" placeholder="1111-1111-1111-1112">
+                <input type="number" name="cardexpiringdate" required maxlength="4" placeholder="MM/YY">
+                <input type="number" name="securitycode" required maxlength="3" placeholder="CVC">            
+                <input type="checkbox" name="addcard" required>
+                <label for="addcard">Add card to wallet</label>
+                <a href="#" target="_self">Continue</a>
+            </form>    
+        </section>
+    </div>
+      
+</body>
+</html>

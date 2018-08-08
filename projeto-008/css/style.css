@@ -115,6 +115,7 @@ div#form form select {
 div#form form p {    
     margin: 0;
     padding: 0;
+    width: 385px;
     margin-bottom: 26px;
     font-size: 12px;
     font-weight: 400;    
@@ -130,17 +131,18 @@ div#form h2#any {
     margin-bottom: 15px;      
 }
 
-div#form form input[type=checkbox] {
+div#form form input.check {
     width: 16px;
     height: 16px;    
     margin-bottom: 15px;
     background-color: #ffffff;
+    border-radius: 2px;   
 }
 
-div#form form span { 
-    padding-left: 6px;   
+div#form form label {  
+    position: absolute;   
     font-size: 14px;
-    font-weight: 400;    
+    font-weight: 400px;    
 }
 
 ::-webkit-input-placeholder {
@@ -160,8 +162,7 @@ div#form form button {
     cursor: pointer;
 }
 
-aside div#menu nav  {                
-    width: 19%;
+aside div#menu nav {   
     height: 990px;  
     background-color: #242536; 
 }
@@ -172,7 +173,8 @@ aside div#menu nav ul {
     padding: 0;      
 }
 
-aside div#menu nav ul li {                  
+aside div#menu nav ul li {
+    width: 15%;                     
     padding: 20px 70px;          
     background-position: 40px;
     border-left: 4px solid rgba(255,255,255,0);  
@@ -180,7 +182,7 @@ aside div#menu nav ul li {
 
 aside div#menu nav ul li#balance {
     background-image: url('../imagens/cifrao.png');
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
 }
 
 aside div#menu nav ul li#dash {
@@ -203,7 +205,25 @@ aside div#menu nav ul li#settings {
     background-repeat: no-repeat;
 }
 
-aside div#menu nav ul li a {                     
+aside div#menu nav ul li#balance span {
+    padding-right: 80px;
+}
+
+aside div#menu nav ul li small {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255,255,255,.6);    
+}
+
+aside div#menu nav ul li#base small {
+    padding-left: 60px;
+}
+
+aside div#menu nav ul li#projects small {
+    padding-left: 70px;
+}
+
+aside div#menu nav ul li a {                        
     text-decoration: none;
     color: rgb(255,255,255);
     font-size: 14px;
