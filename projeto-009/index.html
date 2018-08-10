@@ -9,41 +9,76 @@
 </head>
 <body>
 
-    <div class="checkout">
-        <header>
-            <h2>Checkout</h2>
-            <ul>
-                <li><a href="#">Shipping ></a></li>
-                <li id="payment"><a href="#">Payment Method ></a></li>
-                <li><a href="#">Confirmation</a></li>
-            </ul>
-        </header> 
-        <section class="card">
-            <h3>Wallet</h3>
-            <div class="cardflag">
-                <img src="imagens/cardvisa.png" alt="Visa Card" width="73px" height="48px">
-                <span>Ending in 1234</span>
-            </div>
-            <div class="cardflag">
-                <img src="imagens/cardmaster.png" alt="Master Card" width="73px" height="48px">
-                <span>Ending in 2222</span>
-            </div>
-            <div class="cardflag">
-                <img src="imagens/carddisc.png" alt="Discover Card" width="73px" height="48px">
-                <span>Ending in 1111</span>
-            </div>
-            <form action="#" method="post">
-                <h3>New Card</h3>
-                <input type="text" name="namecard" required placeholder="Name on card"> 
-                <input type="text" name="numbercard" required maxlength="16" placeholder="1111-1111-1111-1112">
-                <input type="number" name="cardexpiringdate" required maxlength="4" placeholder="MM/YY">
-                <input type="number" name="securitycode" required maxlength="3" placeholder="CVC">            
-                <input type="checkbox" name="addcard" required>
-                <label for="addcard">Add card to wallet</label>
-                <a href="#" target="_self">Continue</a>
-            </form>    
-        </section>
-    </div>
+<div class="checkout">
+     
+      <header>      
+        <h2>Checkout</h2>
+          <ul>
+            <li><a href="#">Shipping ></a></li>
+            <li id="payment"><a href="#">Payment Method ></a></li>
+            <li><a href="#">Confirmation</a></li>
+        </ul>
+      </header>       
       
+      <section class="cards">      
+          <h3>Wallet</h3>
+            <div class="cardflag">
+              <img src="imagens/cardvisa.png" alt="Visa Card" width="73px" height="48px">
+              <span>Ending in 1234</span>
+            </div>
+            <div class="cardflag">
+              <img src="imagens/cardmaster.png" alt="Master Card" width="73px" height="48px">
+              <span>Ending in 2222</span>
+            </div>
+            <div class="cardflag">
+              <img src="imagens/carddisc.png" alt="Discover Card" width="73px" height="48px">
+              <span>Ending in 1111</span>
+            </div>
+            <h3 id="nc">New Card</h3>            
+              <form action="#" method="post">                
+                <input type="text" name="namecard" class="namenumber" required placeholder="Name on card"> 
+                <input type="text" name="numbercard" class="namenumber" required maxlength="16" placeholder="1111-1111-1111-1111">
+                <input type="number" name="cardexpiringdate" class="va" required maxlength="4" placeholder="MM/YY">
+                <input type="number" name="securitycode" class="cod" required maxlength="3" placeholder="CVC">            
+                <input type="checkbox" name="addcard" class="check" required>
+                <label for="addcard">Add card to wallet</label>
+                <button type="submit">Continue</button>
+              </form>
+      </section>
+
+      <section class="products">
+        <div class="listitems">        
+          <img src="imagens/bota.png" alt="Bota cor preta" width="49px" height="49px">
+          <span class="productname">The Chelsea Boot</span>
+          <span class="value">$235</span><span class="color">Black</span>
+          <span class="quantity">Quantity:1</span> 
+        </div> 
+        <div class="listitems">  
+          <img src="imagens/mochila.png" alt="Mochila" width="49px" height="49px">
+          <span class="productname">The Twill Snap Backpack</span>
+          <span class="value">$65</span>
+          <span class="color">Reverse Denim + Brown leather</span>
+          <span class="quantity">Quantity: 1</span>       
+        </div>
+        <div class="listitems">   
+          <img src="imagens/bolsa.png" alt="Bolsa" width="49px" height="49px">
+          <p class="productname">The Twill Zip Tote</p>
+          <span class="value">$48</span>
+          <p class="color">Reverse Denim + Black leather</p>
+          <p class="quantity">Quantity: 1</p>
+        </div>
+        <div class="listitems"> 
+          <img src="imagens/cachecol.png" alt="cachecol" width="49px" height="49px">
+          <span class="productname">The Chunky Wool Scarf</span>
+          <span class="value">$50</span>
+          <span class="color">Black</span><span class="quantity">Quantity: 1</span>
+        </div>
+        <p>Subtotal<span>$398</span></p>
+        <p>Shipping<span>Free</span></p>
+        <p>Taxes<span>12.12</span></p>
+        <p>Total<span>$410.12</span></p>  
+      </section>
+
+</div>      
 </body>
 </html>

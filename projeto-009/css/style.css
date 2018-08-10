@@ -24,37 +24,37 @@
 }
 
 body {
-    width: 100%;    
+    width: 100%; 
     background-color: rgba(23,23,23,0.35);    
 }
 
 div.checkout {
-    display: flex;    
-    flex-direction: column; 
-    margin: 0 auto;        
-    width: 680px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 40px auto;
+    width: 60%;
     height: 550px;
-    margin-top: 40px;
-    background-color: #ffffff;
+    background-color: #ebebeb;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.27);
 }
 
-div.checkout header {
+header {
     display: flex;
     align-items: center;
-    width: 680px;
-    height: 30px;      
+    width: 100%;
+    height: 41px;
+    background-color: #fff;
     background-image: url('../imagens/x.png');
     background-repeat: no-repeat;
     background-position-x: 98%;
     background-position-y: center;
     background-size: 17px 17px;    
-    border-bottom: 1px solid #dddcde;   
+    border-bottom: 1px solid #dddcde;
 }
 
-div.checkout h2 {
+header h2 {
     margin: 0; padding: 0;
-    padding-left: 15px;    
+    padding-left: 15px;     
     display: inline-block;    
     color: #5e5f5f;
     font-size: 18px;
@@ -62,13 +62,14 @@ div.checkout h2 {
     font-weight: 700;      
 }
 
-div.checkout ul {
+header ul {
+    display: inline-block;
     margin: 0; padding: 0;
     list-style-type: none;    
     padding-left: 15px;;        
 }
 
-div.checkout ul li {
+header ul li {
     display: inline-block;
     padding-right: 1px;
     font-size: 12px;
@@ -76,26 +77,28 @@ div.checkout ul li {
     font-weight: 400;    
 }
 
-div.checkout ul li#payment {
+header ul li#payment {
     font-family: 'muliextrabold', sans-serif; 
     font-weight: 700;   
 }
 
-div.checkout ul li a {
+header ul li a {
     text-decoration: none;
     color: rgba(74,74,74,.5);
 }
 
-section.card {
+section.cards {
     margin: 0; padding: 0;
-    width: 386px;
-    height: 517px;      
+    width: 52.8%;
+    height: 508px;
+    background-color: #fff;
     border-right: 1px solid #dddcde;
 }
 
-section.card h3 {
+section.cards h3 {
     margin: 0; padding: 0;
-    margin-top: 6px;
+    margin-top: 8px;
+    margin-bottom: 5px;
     margin-left: 17px;
     font-family: 'muliregular', sans-serif; 
     font-weight: 400;  
@@ -103,27 +106,109 @@ section.card h3 {
     font-size: 16px; 
 }
 
-section.card div.cardflag {
+section.cards div.cardflag {
     display: inline-block; 
     margin: 0; padding: 0;
     margin: 5px;
+    margin-left: 17px;
     padding: 13px 3px 13px 3px;    
     width: 109px;
     height: 70px;        
     text-align: center;   
 }
 
-section.card div.cardflag span {
+section.cards div.cardflag span {
     margin: 0; padding: 0;
     font-family: 'muliregular', sans-serif;
     font-size: 12px;
     color: #acafb1; 
 }
 
-section.card div.cardflag:hover {
+section.cards div.cardflag:hover {
     padding: 12px 2px 12px 2px;     
     background-color: #f5f9fd;
     border: 1px solid #d1e2f6;
     border-radius: 3px;
     cursor: pointer;
+}
+
+section.cards h3#nc {
+    margin: 0; padding: 0;
+    margin: 0 10px 25px 10px;
+    padding: 0 0 5px 6px;
+    border-bottom: 1px solid rgba(151,151,151,0.2);
+}
+
+section.cards form {
+    margin: 0; padding: 0;
+    margin: 6% 16%;
+}
+
+section.cards form input {    
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    font-family: 'muliregular', sans-serif;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+section.cards form input.namenumber {
+    width: 270px;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+section.cards form input.va {
+    width: 149px;
+    height: 40px; 
+    margin-right: 8px;  
+}
+
+section.cards form input.cod {
+    width: 96px;
+    height: 40px;
+}
+
+::-webkit-input-placeholder {
+    color: #c4cbd0;
+}
+
+section.cards form input.check {
+   margin-top: 20px;
+   margin-right: 5px;
+}
+
+section.cards form label {
+    font-size: 14px;
+    color: #777879;
+    font-family: 'muliregular', sans-serif;
+}
+
+section.cards form button {
+    display: block;
+    width: 289px;
+    height: 44px;
+    margin-top: 30px;
+    background-color: #8bd638;
+    border: none;
+    border-radius: 2px;
+    color: rgb(255,255,255);
+    font-size: 16px;
+    font-family: 'muliextrabold', sans-serif;
+    cursor: pointer;
+}
+
+section.products {    
+    width: 47%;
+    height: 508px;    
+    background-color: #ebebeb;
+}
+
+section.products div.listitems {
+    border-bottom: 1px solid #000;
+}
+
+section.products div.listitems img {
+    display: inline-block;
+    margin: 0; padding: 0;
 }
