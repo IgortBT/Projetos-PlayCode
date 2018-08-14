@@ -204,11 +204,112 @@ section.products {
     background-color: #ebebeb;
 }
 
-section.products div.listitems {
-    border-bottom: 1px solid #000;
+section.products p {
+   width: 320px; 
+   height: 49px;
+   margin: 0; padding: 0;   
+   margin-left: 20px;
+   margin-top: 10px;
+   padding-bottom: 15px;  
+   border-bottom: 1px solid rgba(155,155,155,0.2);      
 }
 
-section.products div.listitems img {
+section.products p span{
+    display: flex;
+    flex-flow: column;      
+    margin-left: 55px; 
+    margin-bottom: 4px;       
+}
+
+section.products p.bota {    
+    background-image: url('../imagens/bota.png');
+    background-repeat: no-repeat; 
+    margin-top: 25px;    
+}
+
+section.products p.mochila {
+    background-image: url('../imagens/mochila.png');
+    background-repeat: no-repeat;
+}
+
+section.products p.bolsa {
+    background-image: url('../imagens/bolsa.png');
+    background-repeat: no-repeat;
+}
+
+section.products p.cachecol {
+    background-image: url('../imagens/cachecol.png');
+    background-repeat: no-repeat;
+    padding-bottom: 75px;    
+} 
+
+section.products p span.productname {
     display: inline-block;
+    font-size: 12px;
+    font-family: 'muliextrabold', sans-serif; 
+    color: #777879;
+}
+
+section.products p span.value {      
+    float: right;
+    margin-right: 10px;   
+    color: #777879;
+    font-size: 12px;
+    font-family: 'muliextrabold', sans-serif; 
+}
+
+section.products p span.color {     
+    font-size: 10px;    
+    font-family: 'muliextralight_italic', sans-serif;
+    color: #4a4a4a;
+}
+
+section.products p span.quantity { 
+    display: flex;
+    flex-direction: row;            
+    font-family: 'muliextrabold', sans-serif;
+    font-size: 10px;
+    color: #9c9c9c;           
+}
+
+section.products p span.number {
     margin: 0; padding: 0;
+    padding-left: 5px;
+    font-size: 10px;
+    color: #9c9c9c;
+    font-family: 'muliregular', sans-serif;   
+}
+
+section.products span.subtotal { 
+    display: block;   
+    margin: 0; padding: 0;
+    margin-top: 10px;
+    margin-left: 20px;  
+    border: none;
+    font-size: 12px;
+    font-family: 'muliregular', sans-serif; 
+    color: #777879;
+}
+
+section.products span.a1 {
+    float: right;
+    margin-right: 56px;
+    font-size: 12px;
+    font-family: 'muliregular', sans-serif; 
+    color: #777879;
+}
+
+section.products h3 {
+    width: 320px;
+    margin-left: 20px; 
+    margin-top: 10px;    
+    padding-top: 20px;
+    font-size: 12px;
+    color: #777879;
+    font-family: 'muliextrabold', sans-serif;
+    border-top: 1px solid rgba(155,155,155,0.2); 
+}
+
+section.products h3 span {
+    margin-left: 238px;
 }
