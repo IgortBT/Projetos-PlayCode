@@ -1,0 +1,90 @@
+@charset "UFT-8";
+
+div#coluna1 {
+    margin: 0; padding: 0;    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3c40;
+    font-family: 'Lato', sans-serif;  
+}
+
+div#coluna1 img {
+    margin-top: 35px;
+    border-radius: 2px;
+}
+
+div#coluna1 h2 {    
+    text-transform: uppercase;       
+    font-weight: 700;
+    font-size: 24px;
+    color: #f5a71e; 
+    margin-top: 16px;   
+}
+
+div#coluna1 h3 {
+    margin-top: -5px;    
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+div#coluna1 a.botao {
+    width: 140px;
+    height: 40px;    
+    margin-top: 15px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background-color: #f6a623;
+    color: #fff;    
+    font-weight: 700;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: 0 4px 0 rgba(245, 166, 35, 0.6);
+}
+
+div.socialnetwork {
+    margin-top: -10px;
+}
+
+div.socialnetwork a {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+section h2#titlesection{
+    margin: 0; padding: 0;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+section p {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6e7b82;
+}
+
+div#coluna1 section progress {
+    width: 230px;
+    margin: 0; padding: 0;
+    margin-bottom: 5px;
+}
+
+div#coluna1 progress::-webkit-progress-value {
+    background-color: #eeb65a;
+}
+
+div#coluna2 {    
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    margin: 0; padding: 0;
+    background-color: brown;
+}
