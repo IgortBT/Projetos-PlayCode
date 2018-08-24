@@ -83,8 +83,81 @@ div#coluna1 progress::-webkit-progress-value {
 
 div#coluna2 {    
     display: flex;
-    flex-flow: nowrap;
-    justify-content: center;
+    flex-flow: nowrap;    
     margin: 0; padding: 0;
-    background-color: brown;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid rgba(155,155,155,0.3);
+    color: #666666;
 }
+
+div#coluna2 header {
+    text-align: left;
+    width: 100%;    
+    border-bottom: 1px solid #d10014;           
+}
+
+div#coluna2 h1 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #d10014;    
+}
+
+div#coluna2 img {
+    padding-right: 8px;
+    padding-left: 5px;
+}
+
+div#coluna2 p {
+    font-size: 15px;    
+    color: #666666;
+    font-weight: 400;
+    text-align: justify;
+    padding-left: 5px;
+}
+
+div#coluna2 article.xp { 
+    margin-top: 40px;       
+}
+
+div#coluna2 article.xp div.emprego {
+    display: flex;
+    flex-flow: nowrap;
+    margin-top: 30px;    
+}
+
+div#coluna2 article.xp ul {       
+    width: 27%; 
+    padding-left: 5px;
+    margin-bottom: 30px;   
+}
+
+div#coluna2 article.xp li {
+    margin-bottom: -5px;
+}
+
+div#coluna2 article.xp li.cargo {   
+    font-size: 17px;
+    font-weight: 700;
+    color: #3a3c40;
+}
+
+div#coluna2 article.xp li.empresa {    
+    font-size: 15px;
+    font-weight: 400;
+    color: #3a3c40;
+}
+
+div#coluna2 article.xp li.periodo { 
+    font-size: 15px;
+    font-weight: 300;
+    color: #3a3c40;
+}
+
+div#coluna2 article.xp p { 
+    margin: 0; padding: 0;  
+    width: 65%;
+    padding-left: 30px;   
+    text-align: justify;    
+}
+
