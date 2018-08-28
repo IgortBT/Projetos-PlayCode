@@ -8,7 +8,7 @@ div#coluna1 {
     margin: 0; padding: 0;    
     display: flex;
     flex-flow: column;
-    height: 870px;    
+    height: 960px; 
     justify-content: initial;    
     align-items: center;    
     background-color: #3a3c40;
@@ -89,7 +89,7 @@ div#coluna1 progress::-webkit-progress-value {
 div#coluna2 {    
     display: flex;
     flex-flow: nowrap;
-    height: 850px;            
+    height: 920px;            
     margin: 0; padding: 0;
     padding: 40px;
     background-color: #fff;
