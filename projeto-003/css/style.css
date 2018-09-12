@@ -19,7 +19,7 @@ form {
 input {
     border: none;
     outline: none;
-    width: 247px;                          
+    width: 90%;                          
 }
 
 ::-webkit-input-placeholder {
@@ -47,7 +47,7 @@ input#senha[type="password"] {
 
 
 input#login[type="submit"] {
-    width: 247px;
+    width: 90%;
     height: 50px;      
     border-radius: 40px;
     background-color: #ffffff;
