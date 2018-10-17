@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    margin: 0; padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+form h2 {
+    font-size: 1.250em;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+form div {
+    height: 200px; 
+    background-color: #3498db;
+}
+
+form div input {
+    width: 100vw;
+    height: 120px;
+    border: none;
+    background-color: #3498db;
+    font-size: 6.250em;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+form div.peso {
+    background-color: #34495e;
+}
+
+form div.peso input {
+    background-color: #34495e;
+}
+
+form a {
+    text-align: center;
+    text-decoration: none;    
+    margin-top: 10px;
+    width: 95vw;
+    height: 185px;    
+    border-radius: 4px;
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 4.500em;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #245b3b;
+}
