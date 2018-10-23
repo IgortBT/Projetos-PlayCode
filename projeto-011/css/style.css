@@ -43,16 +43,23 @@ form div.peso input {
     background-color: #34495e;
 }
 
-form a {
-    text-align: center;
-    text-decoration: none;    
+form button {
+    border: none;      
     margin-top: 10px;
     width: 95vw;
     height: 185px;    
     border-radius: 4px;
     background-color: #27ae60;
-    color: #fff;
-    font-size: 4.500em;
     cursor: pointer;
     box-shadow: 0 6px 0 #245b3b;
+    color: #fff;
+    font-size: 4.500em;
+}
+
+div.result a#voltar {
+    padding-left: 20px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 8.500em;
+    color: #4a90e2;
 }
